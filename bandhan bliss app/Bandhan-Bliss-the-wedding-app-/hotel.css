@@ -1,0 +1,61 @@
+/* Styling for hotel container */
+.hotel-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+/* Styling for each hotel box */
+.hotel-box {
+    border: 2px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hotel-box h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.hotel-box .rating {
+    font-size: 18px;
+    color: gold;
+}
+
+.hotel-box .price {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.hotel-box .location,
+.hotel-box .details,
+.hotel-box .contact {
+    font-size: 16px;
+    color: #555;
+}
+
+.hotel-box .add-to-wishlist {
+    background-color: #1d72b8;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.hotel-box .add-to-wishlist:hover {
+    background-color: #155a8a;
+}
